@@ -20,4 +20,4 @@ Basically, there are 3 different types of wines and their attributes are their c
 3. Compare with other classifiers
 
 ## Results:
-This is a dataset where the best solution is the simplest. K-Nearest Neighbours outperformed Logistic Regression and Linear SVC. The F1 micro score for KNN was an excellent 0.95.
+Principal Component Analysis was used to do some feature selection (and engineering), and this helped reduce the number of features from 13 to less than 7 orthogonal, independent components. These components have some level of dependency (or loading) on each of the original 13 attributes. This is a dataset where the best solution is the simplest. K-Nearest Neighbours outperformed Logistic Regression and Linear SVC. The F1 micro score for KNN was an excellent 0.95.
